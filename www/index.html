@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++ Advanced Web Server</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to C++ Server</h1>
+        <p class="subtitle">Served with super sonic speed</p>
+
+        <div class="card-grid">
+            <div class="card">
+                <h3>Architecture</h3>
+                <p class="stat" id="server-runtime">Multithreaded</p>
+                <span class="label">jthread pool mapping</span>
+            </div>
+            <div class="card">
+                <h3>Memory Management</h3>
+                <p class="stat" id="server-memory">RAII Streams</p>
+                <span class="label">filesystem I/O pipeline</span>
+            </div>
+            <div class="card">
+                <h3>Active Workers</h3>
+                <p class="stat" id="server-threads">Tracking...</p>
+                <span class="label">Background execution threads</span>
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+
+        <div class="footer">
+            <p>Connected to: <code>127.0.0.1</code> | Engine Status: <span class="badge">Healthy</span></p>
+        </div>
+    </div>
+</body>
+
+</html>
